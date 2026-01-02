@@ -1,0 +1,812 @@
+<html>
+    <head>
+        <title>scheduale exercise</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Londrina+Shadow&family=Oswald:wght@200..700&family=Playpen+Sans+Arabic:wght@100..800&family=Science+Gothic:wght@100..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=edit" />
+      <style>
+
+            body{
+                margin: 0;
+                background-color: rgb(255, 255, 255);
+               
+            }
+            #allproject{
+                width: 100%;
+                 height: 100%;
+            }
+          #imag{
+           position:relative;
+
+          }
+          #imagbackground{
+            
+            text-align: center;
+            width:100%;
+            height: 400px;
+
+           
+           
+          }
+          #divheader1{
+            position: absolute;
+            top: 330px;
+            left: 50px;
+          }
+          #lists{
+            display: flex;
+           
+            align-items: center;
+            
+            font-size: 20px;
+           
+            height: 50px;
+           background-color: rgba(102, 139, 203, 0.54);
+             margin: 0 auto;
+
+
+          }
+          #header1{
+            color: rgb(128 236 114);
+            
+  font-family: "Changa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+           
+  
+          .list{
+            color: rgb(255, 249, 249);
+           
+              width: 50px;
+              margin: 0 auto;
+              text-decoration: none;
+              
+          }
+          #listul{
+            display: flex;
+            gap: 50px;
+            list-style: none;
+          }
+          #takeinfoweight{
+            direction: rtl;
+          }
+          #text{
+            margin-top: 0px;
+            width: 700px;
+           
+            margin-left: 10px;
+            text-transform: uppercase;
+            text-align:start;
+            line-height: 20px;
+          }
+        #Informationsport  {
+             background-image:url(ChatGPT\ Image\ Dec\ 30\,\ 2025\,\ 01_36_17\ PM.png) ;
+          }
+          #Informationsport,#Informationgym{
+            margin:20px ;
+            padding: 20px;
+            background-color: brown;
+            transition: box-shadow 0.5s;
+          }
+           #Informationsport:hover{
+            box-shadow: 5px 10px 20px black;
+
+           }
+           #Informationgym{
+            background-color: rgb(62, 62, 98);
+            background-image:url(ChatGPT\ Image\ Dec\ 30\,\ 2025\,\ 02_47_26\ PM.png) ;
+             background-position: center;
+             height: 300px;
+
+
+           }
+           #Informationgym:hover{
+             box-shadow: 5px 10px 20px black;
+
+           }
+           #Informationcheak{
+             margin:20px ;
+            padding: 20px;
+            background-color: rgb(28, 28, 53);
+           height: 400px;
+           background-image: url(ChatGPT\ Image\ Dec\ 30\,\ 2025\,\ 02_41_01\ PM.png);
+           background-size: cover;
+           background-position: center;
+              
+            
+           }
+           .info{
+            position: relative;
+           
+           }
+           #Informationinput{
+             text-align: center;
+             
+            
+           }
+           h1{
+            color: white;
+           }
+           li > a{
+             text-decoration: none;
+             color: rgb(255, 255, 255);
+           }
+           li >a:hover{
+             text-decoration: none;
+               color: rgb(204, 15, 15);
+           }
+.info_list{
+  position:absolute;
+  text-decoration: none;
+  background-color: rgb(40, 39, 36);
+display: none;
+z-index: 10;
+color: white;
+width: 200px;
+}
+ .info:hover .info_list{
+  display: block;
+ 
+}
+#resultweight{
+  color: rgb(255, 255, 255);
+
+}
+#in::placeholder,#in12::placeholder,#in22::placeholder,#in32::placeholder,#in2::placeholder,#in3::placeholder{
+  text-align: right;
+}
+
+ 
+
+
+#inputinfocaloris{
+  
+   display: flex;
+    flex-direction: column;  
+    gap: 20px;   
+    margin-left: 5px;
+  height: 400px;
+  
+}
+#inputinfocaloriswithtitle{
+background-image: url(ChatGPT\ Image\ Dec\ 30\,\ 2025\,\ 02_10_41\ PM.png);
+   background-size:cover;
+  background-position:0px;
+  height: 450 !important
+  
+}
+label{
+  font-size: 20px;
+
+}
+#wholetable{
+  background-color: rgb(255, 255, 255);
+  background-image: url(background-for-daily-schedual-fitnees-whithout-inf.png);
+   background-size:cover;
+
+  width: 150%;
+  height: 400px;
+
+}
+
+#exercise{
+  z-index: 1;
+}
+.weight {
+  width: 80px;        
+  height: 32px;       
+  font-size: 16px;    
+  padding: 4px 8px;
+  box-sizing: border-box;
+}
+#tips {
+  background: linear-gradient(135deg, #f6f8f9, #d9f0f3);
+  padding: 30px;
+  background-image: url(fitness-tips.png);
+  border-radius: 15px;
+ 
+  font-family: Arial, sans-serif;
+}
+
+#tips h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#tips ul {
+  list-style: none;
+  padding: 0;
+}
+
+#tips li {
+
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+
+
+#imagbackground{
+  object-fit: cover;
+}
+#caption{
+   font-family: "Changa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+
+        </style>
+       
+    </head>
+    <body>
+        <div id="allproject">
+            <div id="lists">
+                <ul id="listul">
+                    <li>
+                 <a class="list" href="http://127.0.0.1:5500/schdualexrcise%20copy.html" target="_self">Home</a>
+                 </li>
+                 <li class="info">
+                  <a  class="list">contact with us</a>
+                  <div class="info_list">
+                    <ul >
+                      <li style="margin-top: 20px;"> <a href="https://wa.me/962772071948" target="_blank"> what's up</a>
+                      </li>
+                      <li style="margin-top: 20px;">
+                        <a href="mailto:abdullahaltamimi300@gmail.com.com" target="_blank"> email</a>
+                      </li>
+                      <li style="margin-top: 20px;">
+                        <a href="tel:+962772071948" target="_blank" >+962772071948</a>
+                      </li>
+                    </ul>
+                  </div>
+                  </li>
+                   
+                 <li class="info">
+                   <a class="list">store</a>
+                  <div class="info_list">
+                    <ul>
+                      <li >
+                        <a >coming soon 😊</a> </li>
+                    </ul>
+                  </div>
+                    </li>
+                    </ul>
+            </div>
+            <div id="imag">
+        <img id="imagbackground" src="start-page-about-fitness-wihout-pepole.png">
+        <div id="divheader1">
+            <h1  id="header1"> train your brain </h1>
+         </div>
+        </div>
+        <div  id="Informationsport">
+        <h1 style="margin-left: 10px; font-size: 50px;">sport</h1>
+        <p id="text">is a physical activity or game,often competitive and organized that maintains or improves physical ability and skills. 
+             Sport may provide enjoyment to participants and entertainment to spectators.
+         The number of participants in a particular sport can vary from hundreds of people to a single individual.</p>
+                </div>
+               
+              <div id="Informationcheak">
+                <h1 style="margin-left: 5px ;">check your weight</h1>
+                <div id="Informationinput">
+                  <div>
+                <label style="font-size: 30px;color: white;">weight</label>
+                <input  id="in" type="text" placeholder= "kg">
+                </div>
+                 <div style="margin-left: 20px;">
+                <label style="font-size: 30px;color: white;">hight</label>
+                <input id="in2" type="text" placeholder="cm">
+                </div>
+                 <button id="send" style="text-align: center; margin: 10;" >send</button>
+                <h2 id="resultweight"></h2>
+                </div>
+               
+              </div>
+              <section id="tips">
+  <h2>Fitness Tips</h2>
+  <ul>
+    <li>Start your day with a 10-minute warm-up.</li>
+    <li>Drink plenty of water before, during, and after workouts.</li>
+    <li>Focus on a balanced diet with proteins and carbohydrates.</li>
+    <li>Avoid overtraining; rest between sessions.</li>
+    <li>Try different exercises to improve strength and endurance.</li>
+  </ul>
+</section>
+
+                <div id="inputinfocaloriswithtitle" style="background-color: rgb(137, 93, 27);  height: 500px;  ">
+                  <div style="text-align: center;">
+                <h2>calculate your calories</h2>
+                </div>
+                <div id="inputinfocaloris">
+                 <div>
+                 <label style="font-size: 30px;color: white;">Gender</label>
+                  <input id="male" name="Gender" value="male" type="radio">
+                  <label for="male" style="font-size: 30px;color: rgb(0, 0, 0);" >male</label>
+                  <input id="female" name="Gender" value="female" type="radio">
+                  <label for="female" style="font-size:30px;color: rgb(0, 0, 0);" >female</label>
+
+                </div>
+                  <div>
+                 <label style="font-size: 30px;color: white;">Weight</label>
+                <input id="in12" type="text" placeholder= "kg">
+                </div>
+                 <div>
+                 <label style="font-size: 30px;color: white; ">Hight</label>
+                <input  style="margin-left: 18px;"  id="in22" type="text" placeholder="cm">
+                </div>
+                <div>
+                  <label style="font-size: 30px;color: white;">Age</label>
+                <input  style="margin-left: 37px;" id="in32" type="text" placeholder="year">
+                </div>
+                <div>
+                <label style="font-size: 30px;color: white;">Your daily activity</label>
+               <select id="mySelect" style="background: #236dc2;">
+                  <option value="sedentary">💤 Sedentary (little or no exercise)</option>
+                  <option value="light">🚶 Light (1–3 days/week)</option>
+                  <option value="moderate">🏃 Moderate (3–5 days/week)</option>
+                  <option value="heavy">💪 Heavy (6–7 days/week)</option>
+                  <option value="athlete">🔥 Athlete (twice daily workouts)</option>
+                </select>
+
+                </div>
+                <div style="text-align: center;" id="divsend">
+                  <button id="submit">submit</button>
+                </div>
+               
+          <h1 style="text-align: center; color: rgb(29, 1, 100);" id="appearresulte"></h1>
+              </div>
+
+               <div id="Informationgym">
+                  <h1 style="color: rgb(45, 255, 12);">start your trip at GYM</h1>
+                  <p style="color:  rgb(45, 255, 12);" id="text">
+              If you want to improve yourself, live an interesting life, and have good health,
+               you need to start taking action—like going to the gym, eating healthy, and more
+               . If you need a plan to get started, I can help you.
+              In the beginning, you should set a clear goal, and then start working toward it.
+ </p>
+
+              </div>
+
+              <div id="wholetable">
+              <table id="table" border="2">
+              <caption id="caption" style="color: black;font-size: 30px;" >weekly scheduale</caption>
+              <thead>
+
+                <tr>
+                  <th >days</th>
+                  <th >exercise1</th>
+                  <th >exercise2</th>
+                   <th >exercise3</th>
+                    <th >exercise4</th>
+                    <th >exercise5</th>
+                    <th >exercise6</th>
+                    <th >exercise7</th>
+                    <th >exercise8</th>
+                    
+                  </tr>
+                </thead>
+                <tbody class="content" ></tbody>
+                </div>
+              </table>
+              </div>
+         </div>
+
+    </body>
+    <script>
+      
+      document.getElementById("send").addEventListener("click",function(){
+        let weight=document.getElementById("in").value
+        let hight=document.getElementById("in2").value
+        let sum=(weight/((hight/100)*(hight/100)))
+        console.log(sum)
+        switch(true){
+        case( sum<0 ||isNaN(sum)):
+        alert("falid number")
+        break
+        case( sum<16):
+         document.getElementById("resultweight").innerHTML="✏️Severe Thinness"
+          break
+         case(sum<17):
+          document.getElementById("resultweight").innerHTML="👌Moderate Thinness"
+           break
+          case(sum<18.5):
+          document.getElementById("resultweight").innerHTML="✌️Mild Thinness"
+           break
+          case(sum<25):
+          document.getElementById("resultweight").innerHTML="😁Normal"
+           break
+               case(sum<30):
+          document.getElementById("resultweight").innerHTML="🤔Overweight"
+           break
+               case( sum<35):
+          document.getElementById("resultweight").innerHTML="🫡Obese Class I	"
+           break
+               case( sum<40):
+          document.getElementById("resultweight").innerHTML="😡Obese Class II	"
+           default:
+             document.getElementById("resultweight").innerHTML="😡🤬Obese Class III	"
+        }
+      })
+      document.getElementById("submit").addEventListener("click",function(){
+        var weight=document.getElementById("in12").value
+         console.log( weight)
+        var height=document.getElementById("in22").value
+         console.log(height)
+        var age=document.getElementById("in32").value
+         console.log(age)
+        var gender = document.querySelector('input[name="Gender"]:checked').value
+
+         console.log(gender)
+        if(gender=="male"){
+        var total=(10 * weight + 6.25 * height - 5 * age + 5)* printvalueexrcise()
+        }
+        else{
+          var total=(10 * weight + 6.25 * height - 5 * age -161)* printvalueexrcise()
+
+        }
+        
+       
+
+       
+       document.getElementById("appearresulte").innerHTML="your calorise is"+" "+ Math.round(total)
+       
+
+      })
+ 
+
+    function printvalueexrcise() {
+    var exercise = document.getElementById("mySelect").value;
+    switch (exercise) {
+        case "sedentary": return 1.2;
+        case "light": return 1.375;
+        case "moderate": return 1.55;
+        case "heavy": return 1.725;
+        case "athlete": return 1.9;
+        default: return 1.2;
+    }
+    
+}
+ document.getElementById("mySelect").addEventListener("change", function() {
+  printvalueexrcise()})
+
+   let saved= JSON.parse(localStorage.getItem("data")) ||{}
+   let savedday= JSON.parse(localStorage.getItem("dataday")) ||{}
+console.log("saved",saved);
+          //         appear days           //
+     document.addEventListener("change", function (e) {
+
+  if (e.target.classList.contains("days")) {
+
+    let select = e.target;
+    let value = select.value;
+
+    if (value !="") {
+      select.style.display = "none";
+
+      let selectedCell = select.closest("td").querySelector(".selectedDay");
+      selectedCell.textContent = value;
+      selectedCell.style.display = "inline";
+      selectedCell.style.color = "red";
+    }
+     localStorage.setItem("dataday",JSON.stringify(value))
+  }
+ 
+});
+
+ 
+ document.addEventListener("click", function (e) {
+  const btn = e.target.closest(".btn" );
+
+  if (!btn) return;
+
+  if (!confirm("هل تريد الموافقة على التعديل؟")) return;
+
+  const row = btn.closest("td");
+  if (!row) return;
+
+  const selectDay = row.querySelector(".days");
+  const spanDay   = row.querySelector(".selectedDay");
+  const selectEx  = row.querySelector(".exercise1");
+  const spanEx    = row.querySelector(".selectedex");
+ 
+  // day
+  if (spanDay) spanDay.style.display = "none";
+  if (selectDay) {
+    selectDay.style.display = "inline";
+    selectDay.value = "";
+  }
+
+  // exercise
+  if (spanEx) spanEx.style.display = "none";
+  if (selectEx) {
+    selectEx.style.display = "inline";
+    selectEx.value = "";
+  }
+    localStorage.setItem("dataday",JSON.stringify(data))
+})
+
+  // weight
+  
+function addday() {
+  var day=""
+   day= `
+       <select class="days">
+            <option value="">-- Choose day --</option>
+            <option value="sunday">sunday</option>
+            <option value="monday">monday</option>
+            <option value="tuesday">tuesday</option>
+            <option value="wednesday">wednesday</option>
+            <option value="thursday">thursday</option>
+            <option value="friday">friday</option>
+            <option value="saturday">saturday</option>
+        </select>
+
+        <span class="selectedDay" style="display:none; font-weight:bold;"></span>
+
+        <button style="margin-top: 3px;background-color: brown; border-radius: 50%;padding: 0;float: right;" 
+                class="btn">
+            <span class="material-symbols-outlined">edit</span>
+        </button>
+    `
+     return day
+  }
+  function addExercise(i){
+  var exercise=""  
+exercise=`
+    
+    
+ <select value="${saved[i]?.value}" class="exercise1 ex_${i}">
+    <option value="">-- Choose Exercise --</option>
+
+    <option style="font-size:25px;color:red" value="///// Chest Exercises /////">///// Chest Exercises /////</option>
+    <option value="Bench Press">Bench Press</option>
+    <option value="Incline Bench Press">Incline Bench Press</option>
+    <option value="Decline Bench Press">Decline Bench Press</option>
+    <option value="Dumbbell Chest Press">Dumbbell Chest Press</option>
+    <option value="Incline Dumbbell Press">Incline Dumbbell Press</option>
+    <option value="Dumbbell Fly">Dumbbell Fly</option>
+    <option value="Cable Crossover">Cable Crossover</option>
+    <option value="Low to High Cable Fly">Low to High Cable Fly</option>
+    <option value="Chest Press Machine">Chest Press Machine</option>
+    <option value="Pec Deck Fly (Butterfly Machine)">Pec Deck Fly (Butterfly Machine)</option>
+
+    <option style="font-size:25px;color:red" value="///// Back Exercises /////">///// Back Exercises /////</option>
+    <option value="Lat Pulldown – Front Pull">Lat Pulldown – Front Pull</option>
+    <option value="Pull Up">Pull Up</option>
+    <option value="Seated Row – Ground Pull">Seated Row – Ground Pull</option>
+    <option value="Bent Over Row – Curved Bar">Bent Over Row – Curved Bar</option>
+    <option value="One Arm Dumbbell Row">One Arm Dumbbell Row</option>
+    <option value="Deadlift">Deadlift</option>
+    <option value="Face Pull">Face Pull</option>
+
+    <option style="font-size:25px;color:red" value="///// Shoulder Exercises /////">///// Shoulder Exercises /////</option>
+    <option value="Shoulder Press">Shoulder Press</option>
+    <option value="Dumbbell Shoulder Press">Dumbbell Shoulder Press</option>
+    <option value="Lateral Raise">Lateral Raise</option>
+    <option value="Front Raise">Front Raise</option>
+    <option value="Rear Delt Fly">Rear Delt Fly</option>
+    <option value="Arnold Press">Arnold Press</option>
+    <option value="Upright Row">Upright Row</option>
+
+    <option style="font-size:25px;color:red" value="///// Biceps Exercises /////">///// Biceps Exercises /////</option>
+    <option value="Barbell Curl">Barbell Curl</option>
+    <option value="Dumbbell Curl">Dumbbell Curl</option>
+    <option value="Hammer Curl">Hammer Curl</option>
+    <option value="Preacher Curl">Preacher Curl</option>
+    <option value="Concentration Curl">Concentration Curl</option>
+    <option value="Cable Curl">Cable Curl</option>
+
+    <option style="font-size:25px;color:red" value="///// Triceps Exercises /////">///// Triceps Exercises /////</option>
+    <option value="Triceps Pushdown – Cable">Triceps Pushdown – Cable</option>
+    <option value="Overhead Extension">Overhead Extension</option>
+    <option value="Skull Crushers">Skull Crushers</option>
+    <option value="Close Grip Bench Press">Close Grip Bench Press</option>
+    <option value="Dips – Parallel">Dips – Parallel</option>
+    <option value="Kickback">Kickback</option>
+
+    <option style="font-size:25px;color:red" value="///// Leg Exercises /////">///// Leg Exercises /////</option>
+    <option value="Squat">Squat</option>
+    <option value="Leg Press">Leg Press</option>
+    <option value="Lunges">Lunges</option>
+    <option value="Leg Extension – Front">Leg Extension – Front</option>
+    <option value="Leg Curl – Back">Leg Curl – Back</option>
+    <option value="Romanian Deadlift">Romanian Deadlift</option>
+    <option value="Calf Raise">Calf Raise</option>
+
+    <option style="font-size:25px;color:red" value="Cardio">Cardio</option>
+</select>
+
+
+
+        <span class="selectedex " style="display:none; font-weight:bold;" ></span>
+         <button style="margin-top: 3px;background-color: brown; border-radius: 50%;padding: 0;float: right;" 
+                class="btn" >
+            <span class="material-symbols-outlined">edit</span>
+        </button>
+        
+        <input type="text"  class="inputweight we_${i}"  name="weight_${i}" value="${saved[i]?.weight??"kg"} " style="margin-top: 20px; text-align: center;display:none">
+        <span class="spaninfo" style="display:none; font-weight:bold;"></span>
+        <button style="margin-top: 30px;background-color: green; border-radius: 50%;padding: 0;float: right; display:none" 
+                class="buttonweight">
+            <span class="material-symbols-outlined">edit</span>
+           </button>
+    `
+     return exercise
+          }
+
+   
+  
+  let data=saved
+  
+ document.addEventListener("change",function(l){ 
+    if (l.target.classList.contains(`exercise1`)) {
+
+    let select = l.target;
+    let value = select.value;
+ 
+
+     if(value!=""){
+   select.style.display="none"
+   let appearex=select.closest("td").querySelector(`.selectedex`)
+      let appearinput=select.closest("td").querySelector(`.inputweight`)
+      
+    const currentSelect=Array.from(select.classList).find((cl)=>{
+      
+return cl.includes("ex_")
+    })
+     
+   let nameOfValue =currentSelect.split("_")[1]
+    data ={
+      ...data,
+      [nameOfValue]:{
+         ...data[nameOfValue],
+        value,
+      }
+    }
+         let appearbtn=select.closest("td").querySelector(`.buttonweight`)    
+    appearex.textContent=value
+    appearex.style.display="inline"
+    appearex.style.color="black"
+     appearinput.style.display="inline"
+      appearbtn.style.display="inline"
+   }
+   
+   }
+    localStorage.setItem("data",JSON.stringify(data))
+  })
+/*  function selectexercisebefore(){
+    document.querySelectorAll(".exercise1").forEach(element=>
+    {
+       const currentSelect=Array.from(element.classList).find((cl)=>{
+      
+return cl.includes("ex_")
+    })
+    
+   let namberfValue =currentSelect.split("_")[1]
+
+      if(saved[namberfValue]){
+         element.style.display="none"
+   }
+  })
+}
+*/
+  document. addEventListener("change",function(p){ 
+    if (p.target.classList.contains(`inputweight`)) {
+
+    let select = p.target;
+    select.style.display="none"
+    let  weight= select. value;
+    const currentinput=Array.from(select.classList).find((inpu)=>{
+    
+return inpu.includes("we_")
+    })
+ let  nameOfWeight= currentinput.split("_")[1]
+   
+    data ={
+        ...data,
+      [nameOfWeight]:{
+       ...data[nameOfWeight],
+       
+        weight,
+      }
+    }
+     let sum =select.closest("td").querySelector(".spaninfo")
+   if(!sum)return
+   sum.style.display="inline"
+   console.log("sum",sum);
+   sum.textContent= JSON.stringify(data[nameOfWeight].weight);
+   
+    
+      
+    }
+    localStorage.setItem("data",JSON.stringify(data))
+
+    console.log("data21",data);
+  })
+  function showSavedWeights() {
+  document.querySelectorAll(".inputweight").forEach(input => {
+
+    const currentinput = Array.from(input.classList)
+      .find(cl => cl.includes("we_"));
+    if (!currentinput) return;
+
+    let nameOfWeight = currentinput.split("_")[1];
+
+    if (data[nameOfWeight]?.weight) {
+      input.style.display = "none";
+
+      let span = input.closest("td").querySelector(".spaninfo");
+      if (!span) return;
+
+      span.style.display = "inline";
+      span.textContent = data[nameOfWeight].weight;
+    }
+  });
+}
+window.addEventListener("load", () => {
+  showSavedWeights();
+ 
+});
+function showSavedExercises() {
+  document.querySelectorAll(".exercise1").forEach(select => {
+
+    const currentSelect = Array.from(select.classList)
+      .find(cl => cl.includes("ex_"));
+    if (!currentSelect) return;
+
+    let numberOfValue = currentSelect.split("_")[1];
+
+    if (saved[numberOfValue]?.value) {
+      select.style.display = "none";
+
+      let span = select.closest("td").querySelector(".selectedex");
+      if (!span) return;
+
+      span.style.display = "inline";
+      span.textContent = saved[numberOfValue].value;
+    }
+  });
+}
+window.addEventListener("load", () => {
+  showSavedExercises();
+  showSavedWeights();
+});
+// loop of all schedule's info
+function addinfo(){
+  let content=""
+  for(var i=0; i<7; i++){
+    content+=`<tr>
+      <td>${addday()}</td>
+      <td>${addExercise(i+"a")}</td>
+      <td>${addExercise(i+"b")}</td>
+      <td>${addExercise(i+"c")}</td>
+      <td>${addExercise(i+"t")}</td>
+      <td>${addExercise(i+"h")}</td>
+      <td>${addExercise(i+"j")}</td>
+      <td>${addExercise(i+"q")}</td>
+      <td>${addExercise(i+"v")}</td>
+      
+      </tr>`
+
+  }
+  
+return content
+}
+  var contents =addinfo()
+  document.querySelector(".content").innerHTML=contents
+
+ 
+
+    </script>
+</html>
